@@ -3,7 +3,23 @@
 @tailwind utilities;
 
 @layer utilities {
-	/* .text-balance {
+  /* .text-balance {
 		text-wrap: balance;
 	} */
+}
+/*
+  font-family: "Playwrite CU", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+*/
+
+@layer base {
+  @font-face {
+    font-family: "Playwrite";
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: normal;
+    src: url("./fonts/playwrite/PlaywriteCU-Light.ttf") format("truetype");
+  }
 }
