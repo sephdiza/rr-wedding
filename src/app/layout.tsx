@@ -1,13 +1,7 @@
 import type { Metadata } from "next";
 import { Lora } from "next/font/google";
-import localFont from "next/font/local";
 import "./globals.css";
 // import localFont from "next/font/local";
-
-// Font files can be colocated inside of `pages`
-export const playWrite = localFont({
-  src: "./fonts/playwrite/PlaywriteCU-Light.ttf",
-});
 
 const lora = Lora({ subsets: ["latin"] });
 
