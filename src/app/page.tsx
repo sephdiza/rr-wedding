@@ -7,7 +7,7 @@ export default function Home() {
     <main className="overflow-hidden text-white">
       <Navbar />
 
-      <div className="flex h-screen w-screen flex-col items-center justify-between overflow-hidden bg-[url('../../public/herov2.png')] bg-cover bg-center bg-no-repeat">
+      <div className="flex h-screen w-screen flex-col items-center justify-between overflow-hidden bg-[url('../../public/herov3.png')] bg-cover bg-center bg-no-repeat">
         <div className="flex h-screen w-screen flex-col items-center justify-between py-12 backdrop-brightness-[.5]">
           <p className="font-hero pt-20 text-center text-6xl leading-relaxed">
             <span className="block">Ron</span>
